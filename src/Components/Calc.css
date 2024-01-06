@@ -1,0 +1,64 @@
+
+.Header{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 10px solid black;
+    border-radius: 10px 10px 10px 10px;
+     transition: font-size 1s ease-in-out;
+      font-weight: bold;
+  font-style:normal;
+}
+.Header:hover{
+      font-size: 24px;
+       font-weight: bold;
+  font-style: italic;
+}
+.group{
+    margin-right: 50px;
+    /* display: flex; */
+}
+.h1El{
+    background-color:   black;
+    font-size: 25px;
+    color: white;
+    border-radius: 10px 30px 10px 30px;
+    font-style: italic;
+}
+.ageCal{
+   text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+    font-weight: bold;
+  font-style: italic;
+}
+input[type="date"] ,button{
+  background-color: #0080ff;
+  padding: 15px;
+  margin-top:5px;
+  transform: translate(-50%, -50%);
+  font-family: "Roboto Mono", monospace;
+  color: #ffffff;
+  border: none;
+  margin-left: 130px;
+  outline: none;
+  border-radius: 5px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background-color: #ffffff;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+button:hover{
+    background-color: #0081cf;
+}
+.avatar { margin: 10px; border-radius: 50%; }
+.result{
+     font-size: 30px;
+  font-weight: bold;
+  color: #110f0f; 
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+  margin-top: 10px;
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+  font-style: italic;
+}
